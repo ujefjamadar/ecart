@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="static/CSS/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="static/CSS/bootstrap.min.css" />
+    <script src="static/JS/bootstrap.min.js"></script>
+    <script src="static/JS/popper.js"></script>
+    <style>
+        .btn-size{
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <!--                      top -->
+        <!-- ms(marging start) lhs-|- --rhs for thenn me(margin end) mx(x axix) my(y aixix) mt(top) mb(bottom)-->
+        <!--                    bottom -->
+        <div class="col-sm-4 mx-auto shadow p-2">
+          <h2>User Login</h2>
+          <form action="post" action="">
+            <div class="mb-3">
+              <label for="Input1" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="Input1"
+                placeholder="name@example.com"
+              />
+              <label for="Input2" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="Input2"
+                placeholder="password"
+              />
+              <a href="forgot.html">forgot password</a>
+            </div>
+            <center>
+              <div class="mb-3">
+                <input type="submit" class="btn btn-primary btn-size" value="Login" /><br>
+                <a href="register.html">Register</a>
+              </div>
+            </center>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

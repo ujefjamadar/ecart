@@ -1,0 +1,4 @@
+Bootstrap:
+2 types
+I.ONLINE
+II.OFFLINES
